@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Pastelitos</h1>
+        </center>
+        <hr>
+        <center>
+            <nav>
+            <a href="#home">HOME</a>
+            <a href="#about">QUIENES SOMOS</a>
+            <a href="#galeria">GALERIA</a>
+            <a href="#contenido">CONTENIDO</a>
+            </nav>
+        </center>
+        <hr>
+    </header>
+    <main>
+        <section>
+            <h2>Bienvenid@ a tu pasteleria de confianza</h2>
+            <img class="tienda" src="img/tienda2.png" alt="Local de venta de pasteles">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima vel blanditiis quis, magnam quia, quod delectus sequi veritatis mollitia odio dolorum numquam aliquid, nisi assumenda excepturi nulla! Eos, repellat eligendi!</p>
+            <article>
+                <h2>Venta de pasteles</h2>
+                <ol>
+                    <li>Pastel de chocolate</li>
+                    <img class="tienda" alt="Pastel de chocolate con decoraciones en crema de chocolate">
+                    <li>Pastel de tres leches</li>
+                    <img class="tienda" alt="Pastel con crema chantilly">
+                    <li>Pastel de fresas</li>
+                    <img class="tienda" alt="Pastel con crema de fresas">
+                </ol>
+                <ul>
+                    <li>Pastel de limon</li>
+                    <li>Pastel de naranja</li>
+                    <li>Pastel de maracuya</li>
+                </ul>
+            </article>
+        </section>
+        <section>
+            <hr>
+            <h2>Productos y precios</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="4">PASTELERIA ÑAM ÑAM</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Productos</th>
+                        <th>Un cuarto</th>
+                        <th>Libra</th>
+                        <th>Tamaño Personalizado</th>
+                    </tr>
+                    <tr>
+                        <td>Pastel de chocolate</td>
+                        <td>11.500</td>
+                        <td>42.000</td>
+                        <td>C/libra 32.000, topins 5.000, fruta 5.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pastel de tres leches</td>
+                        <td>12.500</td>
+                        <td>45.000</td>
+                        <td>C/libra 35.000, topins 5.000, fruta 5.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pastel de fresas</td>
+                        <td>11.000</td>
+                        <td>40.000</td>
+                        <td>C/libra 32.000, topins 4.000, fruta 4.500</td>
+                    </tr>
+                    <tr>
+                        <td>Pastel de limon</td>
+                        <td>10.000</td>
+                        <td>38.000</td>
+                        <td>C/libra 30.000, topins 3.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pastel de naranja</td>
+                        <td>10.000</td>
+                        <td>35.000</td>
+                        <td>C/libra 30.000, topins 3.000</td>
+                    </tr>
+                    <tr>
+                        <td>Pastel de maracuya</td>
+                        <td>12.000</td>
+                        <td>32.000</td>
+                        <td>C/libra 35.000, topins 4.000</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="4">No te quedes sin el tuyo ^^</td>
+                </tfoot>                
+            </table>
+            <hr>
+            <h2>Personaliza tus pasteles</h2>
+            <form action="" method="get">
+                <fieldset>
+                    <legend>Elige el tipo de pastel a encargar</legend>
+                    <input type="radio" name="pastel1" id="chocolate" value="chocolate">
+                    <label for="chocolate">Pastel de chocolate</label><br>
+                    <input type="radio" name="pastel1" id="tres_leches" value="tres_leches">
+                    <label for="tres_leches">Pastel de tres leches</label><br>
+                    <input type="radio" name="pastel1" id="fresas" value="fresas">
+                    <label for="fresas">Pastel de fresas</label><br>
+                    <input type="radio" name="pastel1" id="limon" value="limon">
+                    <label for="limon">Pastel de limon</label><br>
+                    <input type="radio" name="pastel1" id="naranja" value="naranja">
+                    <label for="naranja">Pastel de naranja</label><br>
+                    <input type="radio" name="pastel1" id="maracuya" value="maracuya">
+                    <label for="maracuya">Pastel de maracuya</label><br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Elige los toppins</legend>
+                    <input type="checkbox" name="toppins[]" id="chips_chocolate" value="chips_chocolate">
+                    <label for="chips_chocolate">Chips de chocolate</label><br>
+                    <input type="checkbox" name="toppins[]" id="chips_colores" value="chips_colores">
+                    <label for="chips_colores">Chips de colores</label><br>
+                    <input type="checkbox" name="toppins[]" id="perlas" value="perlas">
+                    <label for="perlas">Perlas</label><br>
+                    <input type="checkbox" name="toppins[]" id="cremas" value="cremas">
+                    <label for="cremas">Cremas</label><br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Elige las frutas</legend>
+                    <input type="checkbox" name="frutas[]" id="mango" value="mango">
+                    <label for="mango">Mango</label><br>
+                    <input type="checkbox" name="frutas[]" id="fresas_fruta" value="fresas">
+                    <label for="fresas_fruta">Fresas</label><br>
+                    <input type="checkbox" name="frutas[]" id="durazno" value="durazno">
+                    <label for="durazno">Durazno</label><br>
+                    <input type="checkbox" name="frutas[]" id="frambuezas" value="frambuezas">
+                    <label for="frambuezas">Frambuezas</label><br>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Información del cliente</legend>
+                    <label for="nombre">Nombre de quien encarga</label><br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre cliente" required><br><br>
+                    <label for="telefono">Teléfono del cliente</label><br>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Teléfono cliente" required><br><br>
+                </fieldset>
+                
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
